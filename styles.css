@@ -11,4 +11,10 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    transition: color 0.3s; /* Добавляем плавный переход для изменения цвета */
+}
+
+.button:hover,
+.button:focus {
+    color: black; /* Изменяем цвет текста на черный при наведении или фокусировке */
 }
